@@ -1,6 +1,7 @@
 defmodule ElixirRustler do
   require Add
   alias Add
+  alias Benchee
 
   def hello_native(a, b) do
     Add.add(a, b)
